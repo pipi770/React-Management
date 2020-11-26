@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Customer Master
 class Customer extends React.Component {
     render(){
         return(
@@ -15,6 +16,7 @@ class Customer extends React.Component {
     }
 }
 
+// Customer Detail Profile
 class CustomerProfile extends React.Component{
     render(){
         return(
@@ -26,6 +28,7 @@ class CustomerProfile extends React.Component{
     }
 }
 
+// Customer Detail Info
 class CustomerInfo extends React.Component{
     render(){
         return(
